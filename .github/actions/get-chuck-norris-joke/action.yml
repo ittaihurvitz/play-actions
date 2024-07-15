@@ -1,0 +1,12 @@
+name: 'Get Chuck Norris Joke'
+description: 'Fetches a random Chuck Norris joke from an API'
+inputs:
+  url:
+    description: 'The URL to fetch the joke from'
+    required: true
+outputs:
+  joke:
+    description: 'The fetched joke'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
