@@ -31,4 +31,4 @@ jobs:
         url: "https://api.chucknorris.io/jokes/random"
 
     - name: Display the Joke
-      run: echo "Joke: ${{ steps.get_joke.outputs.joke }}"
+      run: echo "Joke - ${{ steps.get_joke.outputs.joke }}"
