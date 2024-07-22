@@ -6,6 +6,9 @@ on:
       - main
   workflow_dispatch:
 
+env:
+  CHUCK_API: "https://api.chucknorris.io/jokes/random"
+
 jobs:
   get-joke:
     runs-on: ubuntu-latest
